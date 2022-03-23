@@ -1,0 +1,7 @@
+; VR_DemCreator.def : Declares the module parameters for the DLL.
+
+; LIBRARY      "VR_DemCreator"
+DESCRIPTION  'VR_DemCreator Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here

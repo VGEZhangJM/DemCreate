@@ -1,0 +1,28 @@
+// DCR_GridVertex.cpp: implementation of the CDCR_GridVertex class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "DCR_GridVertex.h"
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+CDCR_GridVertex::CDCR_GridVertex()
+{
+	//µã×ø±ê
+	m_dX		= 0;
+	m_dY		= 0;
+	m_dZ		= 0;
+
+	//¾àÀë
+	m_dDistance	= 0;
+	
+	//
+	m_pNext		= NULL;
+}
+
+CDCR_GridVertex::~CDCR_GridVertex()
+{
+	
+}
